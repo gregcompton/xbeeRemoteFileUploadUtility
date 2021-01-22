@@ -7,7 +7,7 @@ port = "COM6"
 baud_rate = 9600
 local_xbee = XBeeDevice(port, baud_rate)
 
-ota_filesystem_image = ".\OTA_FW_Update_Files\ATMOS-v0.23-2021-01-20-file_system_image.fs.ota"
+ota_filesystem_image = ".\OTA_FW_Update_Files\<insert-OTA-file-image-here>image.fs.ota"
 ota_filesystem_version = 0.23
 
 
